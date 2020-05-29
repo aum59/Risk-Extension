@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Risk-Extension",
+    "version": "0.3",
+    "content_scripts": [
+        {
+            "matches": ["https://docs.microsoft.com/*",
+                "https://portal.msrc.microsoft.com/*"],
+            "js": ["microsoft.js"]
+        },{
+            "matches": ["https://www.tenable.com/*"],
+            "js": ["tenable.js"]
+        },{
+            "matches": ["http://127.0.0.1/*"],
+            "js": ["content.js"]
+        }
+    ]
+}

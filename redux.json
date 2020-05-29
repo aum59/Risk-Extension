@@ -1,0 +1,362 @@
+{
+    "abuse": {
+        "bySlug": {},
+        "loading": false
+    },
+    "addons": {
+        "byID": {
+            "2286907": {
+                "authors": [
+                    {
+                        "id": 13131902,
+                        "name": "Nodetics",
+                        "url": "https:\u002F\u002Faddons.mozilla.org\u002Fen-US\u002Ffirefox\u002Fuser\u002F13131902\u002F",
+                        "username": "nodetics",
+                        "picture_url": null
+                    }
+                ],
+                "average_daily_users": 529,
+                "categories": {
+                    "firefox": [
+                        "alerts-updates",
+                        "shopping"
+                    ]
+                },
+                "contributions_url": "",
+                "created": "2019-06-22T10:15:53Z",
+                "default_locale": "en-US",
+                "description": "\u003Cb\u003EWhy PageProbe?\u003C\u002Fb\u003E\n\nWe believe that people want to \u003Cb\u003Esave\u003C\u002Fb\u003E both \u003Cb\u003Etime\u003C\u002Fb\u003E and \u003Cb\u003Emoney\u003C\u002Fb\u003E.\n\nWe believe there are several things people want to follow on regular basis such as:\n- the current price of an expensive item (such as a television) that you would like to purchase so that you can find the lowest price and the best discount to save money\n- the current price of a company X stock in the stock market to find out when it is time to buy or sell in order to optimize your profits\n- the current price of an item in an online auction in order to bid at the last minute \"just enough\"\n- the number of followers you have in your social media accounts\n- the number of likes your social media post has received\n- the status of your web application or related software builds\n- the latest new post on forum Y\n- the latest top article with a specific Twitter search\n\nWe believe that people are evaluating the things they monitor based on certain conditions and when those conditions are met, they will take action. For example, the price of the television that you want will drop below certain price.\n\nWe believe that when this kind of tracking of many things happens manually every day, it is a huge waste of time and you can easily miss good discounts, buying or selling opportunities and as a result can also lose money. \n\nTherefore most of \u003Cb\u003Econtent monitoring should be easily automated\u003C\u002Fb\u003E so that an application will monitor the things you have defined, evaluates the results based on the conditions you have defined and then notifies you when those conditions are met so that you can take action.\n\n\n\u003Cb\u003EWhat is PageProbe?\u003C\u002Fb\u003E\n\nPageProbe WebExtension can monitor any web pages you can access on the Internet or in your company intranet. By simply right-clicking the content you see on a page, you can quickly create a tracker with optional conditions and actions and then view the status of those trackers in a simple monitoring view. \n\nBy clicking the extension icon you can see a nice overview of all your trackers and the data retrieved. Trackers can be easily organized into groups.\n\n\n\u003Cb\u003EFeature highlights:\u003C\u002Fb\u003E\n- Unlimited number of trackers that can monitor any accessible page on the Internet or intranet\n- Fully local solution - does not require an account\n- Trackers can be organized into a tree based hierarchy of groups\n- Converters allow you to easily transform strings to numbers and perform simple arithmetic on them\n- Advanced conditions for trackers: contains text, doesn't contain text, contains all words, doesn't contain words, contains any words, contains any words that start with, matches regexp, is, is not, begins with text, ends with text, smaller than, smaller than or equal, greater than, greater than or equal, is going up, is going down, has changed\n- Case sensitive and case-insensitive matching\n- Boolean logic matching: combine any conditions, for example: (a | b) &amp; c\n- Advanced actions: show desktop notification, play audio (local or URL), set color\u002FCSS for monitor column\u002Frow, HTTP POST, IFTTT, data history logging, event log entry\n- Data history logging will allow you to see with a simple chart how the value of some item has changed over time\n- Export tracker table as Excel\n- cron \u002F crontab style advanced scheduling also supported!\n- Live Content Scan Mode which allows monitoring changing page values in real-time!\n- Discord support (post tracker results directly to Discord channel)\n- Slack support (post tracker results directly to Slack channel)\n\nSupport:\n- Bug reports to nodetics AT \u003Ca href=\"https:\u002F\u002Foutgoing.prod.mozaws.net\u002Fv1\u002F3f1c0d1a1495db959f7a4739af8a5662548bf05ecfe743220f5e01946d5b8508\u002Fhttp%3A\u002F\u002Fgmail.com\" rel=\"nofollow\"\u003Egmail.com\u003C\u002Fa\u003E please",
+                "developer_comments": null,
+                "edit_url": "https:\u002F\u002Faddons.mozilla.org\u002Fen-US\u002Fdevelopers\u002Faddon\u002Fpageprobe\u002Fedit",
+                "guid": "{9c267187-2207-4f94-8b7d-aa2fd06b8587}",
+                "has_eula": false,
+                "has_privacy_policy": true,
+                "homepage": "https:\u002F\u002Foutgoing.prod.mozaws.net\u002Fv1\u002F15eaf41fccb84f3c32231757cc838b95f3e460287c98f3a904e13ce03a536d34\u002Fhttps%3A\u002F\u002Fnodetics.com\u002Fpageprobe",
+                "icon_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Faddon_icons\u002F2286\u002F2286907-64.png?modified=e92ed95a",
+                "id": 2286907,
+                "is_disabled": false,
+                "is_experimental": false,
+                "is_recommended": false,
+                "last_updated": "2020-05-03T16:30:11Z",
+                "name": "PageProbe - Automatic Page Monitor",
+                "previews": [
+                    {
+                        "id": 221244,
+                        "caption": null,
+                        "image_size": [
+                            1200,
+                            800
+                        ],
+                        "image_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Ffull\u002F221\u002F221244.png?modified=1561199079",
+                        "thumbnail_size": [
+                            640,
+                            427
+                        ],
+                        "thumbnail_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Fthumbs\u002F221\u002F221244.png?modified=1561199079"
+                    },
+                    {
+                        "id": 221245,
+                        "caption": null,
+                        "image_size": [
+                            1200,
+                            800
+                        ],
+                        "image_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Ffull\u002F221\u002F221245.png?modified=1561199079",
+                        "thumbnail_size": [
+                            640,
+                            427
+                        ],
+                        "thumbnail_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Fthumbs\u002F221\u002F221245.png?modified=1561199079"
+                    },
+                    {
+                        "id": 221246,
+                        "caption": null,
+                        "image_size": [
+                            1200,
+                            800
+                        ],
+                        "image_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Ffull\u002F221\u002F221246.png?modified=1561199078",
+                        "thumbnail_size": [
+                            640,
+                            427
+                        ],
+                        "thumbnail_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Fthumbs\u002F221\u002F221246.png?modified=1561199078"
+                    },
+                    {
+                        "id": 221247,
+                        "caption": null,
+                        "image_size": [
+                            640,
+                            400
+                        ],
+                        "image_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Ffull\u002F221\u002F221247.png?modified=1561199077",
+                        "thumbnail_size": [
+                            640,
+                            400
+                        ],
+                        "thumbnail_url": "https:\u002F\u002Faddons.cdn.mozilla.net\u002Fuser-media\u002Fpreviews\u002Fthumbs\u002F221\u002F221247.png?modified=1561199077"
+                    }
+                ],
+                "public_stats": false,
+                "ratings": {
+                    "average": 5,
+                    "bayesian_average": 4.585230849825299,
+                    "count": 12,
+                    "text_count": 8
+                },
+                "requires_payment": false,
+                "review_url": "https:\u002F\u002Faddons.mozilla.org\u002Fen-US\u002Freviewers\u002Freview\u002F2286907",
+                "slug": "pageprobe",
+                "status": "public",
+                "summary": "Create automatic monitors for detecting and scanning changes on web pages, evaluate content based on conditions you define and trigger actions such as notifications, sounds, emails etc.",
+                "support_email": "nodetics@gmail.com",
+                "support_url": null,
+                "tags": [
+                    "amazon",
+                    "automatic",
+                    "content",
+                    "gtd",
+                    "ifttt",
+                    "money",
+                    "monitor",
+                    "page",
+                    "pagemonitor",
+                    "price",
+                    "probe",
+                    "rules",
+                    "save",
+                    "scanner",
+                    "shopping",
+                    "store",
+                    "tracker",
+                    "webpage"
+                ],
+                "type": "extension",
+                "url": "https:\u002F\u002Faddons.mozilla.org\u002Fen-US\u002Ffirefox\u002Faddon\u002Fpageprobe\u002F",
+                "weekly_downloads": 134,
+                "currentVersionId": 5017463,
+                "isRestartRequired": false,
+                "isWebExtension": true,
+                "isMozillaSignedExtension": false
+            }
+        },
+        "byGUID": {
+            "{9c267187-2207-4f94-8b7d-aa2fd06b8587}": 2286907
+        },
+        "bySlug": {
+            "pageprobe": 2286907
+        },
+        "infoBySlug": {},
+        "loadingBySlug": {
+            "pageprobe": false
+        }
+    },
+    "addonsByAuthors": {
+        "byAddonId": {},
+        "byAddonSlug": {},
+        "byAuthorId": {},
+        "countFor": {},
+        "loadingFor": {}
+    },
+    "api": {
+        "clientApp": "firefox",
+        "lang": "en-US",
+        "requestId": "353f3693-fcaf-4c27-b529-7cad3adce633",
+        "token": null,
+        "userAgent": "Mozilla\u002F5.0 (Windows NT 10.0; rv:68.0) Gecko\u002F20100101 Firefox\u002F68.0",
+        "userAgentInfo": {
+            "browser": {
+                "name": "Firefox",
+                "version": "68.0",
+                "major": "68"
+            },
+            "os": {
+                "name": "Windows",
+                "version": "10"
+            }
+        }
+    },
+    "autocomplete": {
+        "loading": false,
+        "suggestions": []
+    },
+    "blocks": {
+        "blocks": {}
+    },
+    "categories": {
+        "categories": null,
+        "loading": false
+    },
+    "collections": {
+        "byId": {},
+        "bySlug": {},
+        "current": {
+            "id": null,
+            "loading": false
+        },
+        "userCollections": {},
+        "addonInCollections": {},
+        "isCollectionBeingModified": false,
+        "hasAddonBeenAdded": false,
+        "hasAddonBeenRemoved": false,
+        "editingCollectionDetails": false
+    },
+    "errors": {
+        "src\u002Famo\u002Fpages\u002FAddon\u002Findex.js-pageprobe": null
+    },
+    "errorPage": {
+        "clearOnNext": true,
+        "error": null,
+        "hasError": false,
+        "statusCode": null
+    },
+    "formOverlay": {},
+    "heroBanners": {},
+    "home": {
+        "collections": [],
+        "heroShelves": null,
+        "isLoading": false,
+        "resetStateOnNextChange": false,
+        "resultsLoaded": false,
+        "shelves": {}
+    },
+    "guides": {
+        "guidsBySlug": {},
+        "loading": false
+    },
+    "infoDialog": {
+        "data": null,
+        "show": false
+    },
+    "installations": {},
+    "landing": {
+        "addonType": null,
+        "category": null,
+        "recommended": {
+            "count": 0,
+            "results": []
+        },
+        "highlyRated": {
+            "count": 0,
+            "results": []
+        },
+        "loading": false,
+        "trending": {
+            "count": 0,
+            "results": []
+        },
+        "resultsLoaded": false
+    },
+    "languageTools": {
+        "byID": {}
+    },
+    "recommendations": {
+        "byGuid": {}
+    },
+    "redirectTo": {
+        "url": null,
+        "status": null
+    },
+    "reviews": {
+        "permissions": {},
+        "byAddon": {},
+        "byId": {},
+        "byUserId": {},
+        "latestUserReview": {},
+        "groupedRatings": {},
+        "view": {},
+        "loadingForSlug": {}
+    },
+    "search": {
+        "count": 0,
+        "filters": null,
+        "loading": false,
+        "pageSize": null,
+        "results": []
+    },
+    "site": {
+        "readOnly": false,
+        "notice": null,
+        "loadedPageIsAnonymous": false
+    },
+    "survey": {
+        "wasDismissed": false
+    },
+    "uiState": {},
+    "userAbuseReports": {
+        "byUserId": {}
+    },
+    "users": {
+        "currentUserID": null,
+        "byID": {},
+        "byUsername": {},
+        "isUpdating": false,
+        "userPageBeingViewed": {
+            "loading": false,
+            "userId": null
+        },
+        "isUnsubscribedFor": {}
+    },
+    "versions": {
+        "byId": {
+            "5017463": {
+                "compatibility": {
+                    "firefox": {
+                        "min": "48.0",
+                        "max": "*"
+                    }
+                },
+                "id": 5017463,
+                "isStrictCompatibilityEnabled": false,
+                "license": {
+                    "isCustom": false,
+                    "name": "All Rights Reserved",
+                    "url": null
+                },
+                "platformFiles": {
+                    "all": {
+                        "id": 3561833,
+                        "created": "2020-05-03T16:25:58Z",
+                        "hash": "sha256:34e9599295ff9def4930f9e4e319480d0c7f6cc15da066a7dffcd6986e3fa8f3",
+                        "is_restart_required": false,
+                        "is_webextension": true,
+                        "is_mozilla_signed_extension": false,
+                        "platform": "all",
+                        "size": 1764919,
+                        "status": "public",
+                        "url": "https:\u002F\u002Faddons.mozilla.org\u002Ffirefox\u002Fdownloads\u002Ffile\u002F3561833\u002Fpageprobe_automatic_page_monitor-1.25.0-fx.xpi?src=",
+                        "permissions": [
+                            "tabs",
+                            "http:\u002F\u002F*\u002F",
+                            "https:\u002F\u002F*\u002F",
+                            "storage",
+                            "unlimitedStorage",
+                            "contextMenus",
+                            "notifications",
+                            "http:\u002F\u002F*\u002F*",
+                            "https:\u002F\u002F*\u002F*"
+                        ]
+                    }
+                },
+                "releaseNotes": null,
+                "version": "1.25.0"
+            }
+        },
+        "bySlug": {}
+    },
+    "viewContext": {
+        "context": "VIEW_CONTEXT_EXPLORE"
+    },
+    "router": {
+        "location": {
+            "pathname": "\u002Fen-US\u002Ffirefox\u002Faddon\u002Fpageprobe\u002F",
+            "search": "?src=search",
+            "hash": "",
+            "key": "we2m2t",
+            "query": {
+                "src": "search"
+            }
+        },
+        "action": "POP"
+    }
+}
