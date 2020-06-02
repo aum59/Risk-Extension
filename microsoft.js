@@ -3,19 +3,14 @@ console.log('Risk-Extension');
 // // https://docs.microsoft.com
 setTimeout(() => {
     var textProp = 'textContent' in document ? 'textContent' : 'innerText';
-    [].slice.call(document.querySelectorAll('p'), 0).forEach(function(aEl) {
+        [].slice.call(document.querySelectorAll('p'), 0).forEach(function(aEl) {
         if (aEl[textProp].indexOf('convince a user') > -1) {
-            aEl.style.color = '#099700';
-            let begin = aEl[textProp].substring(0,aEl[textProp].indexOf('convince a user'));
-            let word = '*********'
-                + aEl[textProp].substring(
-                aEl[textProp].indexOf('convince a user') ,
-                aEl[textProp].indexOf('convince a user')+18)
-                + '*********';
-            let end = aEl[textProp].substring(aEl[textProp].indexOf('convince a user')+18,);
-            aEl[textProp] = begin + word + end;
+            var begin = aEl[textProp].substring(0,aEl[textProp].indexOf('convince a user'));
+            var word = aEl[textProp].substring(aEl[textProp].indexOf('convince a user') ,aEl[textProp].indexOf('convince a user')+15);
+            var end = aEl[textProp].substring(aEl[textProp].indexOf('convince a user')+15);
+            aEl.innerHTML = begin + "<b style='color:#099700;''>" + word  + "</b>" + end;
         }
-    });
+        });
 }, 2000);
 
 // Test on https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-022
